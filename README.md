@@ -1,5 +1,7 @@
 # Telecom Customer Churn Prediction Service
 
+**🚀 Live demo: [ayaz-churn-predictor.streamlit.app](https://ayaz-churn-predictor.streamlit.app)**
+
 An end-to-end ML service that predicts which telecom customers are likely to leave,
 served as a REST API with prediction logging in SQL and data-drift monitoring.
 
