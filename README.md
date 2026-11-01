@@ -53,6 +53,14 @@ Test set: ROC-AUC **0.843**. At the tuned threshold (0.35): churn recall **71%**
 6. **SQL logging** with parameterised queries (prevents SQL injection); gives an audit
    trail and business stats.
 
+## Web demo
+Interactive Streamlit app: fill in a customer and see the churn probability live, compare models, and play with the drift monitor (simulate a price rise and watch PSI react).
+
+```bash
+streamlit run streamlit_app.py      # opens http://localhost:8501
+```
+On first start the app trains the model if no saved model exists (same code as `app/train.py`).
+
 ## Run it
 ```bash
 python -m venv .venv && .venv\Scripts\activate      # Windows
